@@ -26,13 +26,13 @@ exercise/
 │   ├── 01_SWE1_software_requirements_spec.md   ← 要件仕様書 (必読)
 │   ├── 02_SWE2_SWE3_interface_spec.md          ← インターフェース仕様書 (必読)
 │   ├── 03_SWE4_SWE5_test_spec.md              ← テスト仕様書テンプレート
-│   └── 04_guide.md                   ← 本ファイル
+│   └── 04_guide.md                            ← 本ファイル
 ├── server/
 │   ├── someip_common.py                        ← 共通モジュール (利用して良い)
 │   └── vehicle_status_server.py                ← サンプルサーバ (提供される相手先のアプリケーションと想定)
 ├── client/
 │   └── vehicle_status_client.py                ← クライアントスケルトン (★実装すべきアプリケーション)
-├── tests/
+└── tests/
     ├── test_unit.py                            ← ユニットテスト (★考える課題)
     └── test_integration.py                     ← 結合テスト (★考える課題)
 
